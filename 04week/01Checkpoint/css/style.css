@@ -54,9 +54,3 @@ h1 {
     flex-flow: column;
     align-items: flex-start;
 }
-
-.col-main-aside {
-    flex: .85;
-    display: flex;
-    justify-content: flex-end;
-}
