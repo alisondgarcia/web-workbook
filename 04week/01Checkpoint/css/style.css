@@ -48,6 +48,11 @@ h1 {
     padding: 50px;
 }
 
+.article-content {
+    flex: 1;
+    margin-top: 5px;
+}
+
 .col-main {
     flex: 2.15;
     display: flex;
