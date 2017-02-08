@@ -33,7 +33,7 @@ body {
 }
 
 #hero {
-    background-image: url("../img/Bigjojo.png");
+    background-image: url("img/Bigjojo.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
