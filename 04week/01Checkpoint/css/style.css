@@ -53,6 +53,17 @@ h1 {
     margin-top: 5px;
 }
 
+.img-group{
+	display:flex;
+}
+
+.img-container1{
+	flex:0.5656;
+}
+.img-container2{
+	flex:1.7679;
+}
+
 .col-main {
     flex: 2.15;
     display: flex;
