@@ -32,18 +32,6 @@ body {
     padding: 0px 50px;
 }
 
-.col-nav{
-    display: flex
-    background-image: url("img/Bigjojo.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 850px;
-    height: 350px;
-    margin: 0 auto;
-}
-
-
 h1 {
     font-family: Lato;
     text-align: center;
