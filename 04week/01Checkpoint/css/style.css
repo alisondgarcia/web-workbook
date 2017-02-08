@@ -32,7 +32,8 @@ body {
     padding: 0px 50px;
 }
 
-#hero {
+.col-nav{
+    display: flex
     background-image: url("img/Bigjojo.png");
     background-repeat: no-repeat;
     background-position: top;
@@ -40,12 +41,6 @@ body {
     width: 850px;
     height: 350px;
     margin: 0 auto;
-}
-
-#Jojo {
-    width: 50%;
-    margin: 0 auto;
-    padding: 150px;
 }
 
 
