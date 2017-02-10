@@ -24,7 +24,7 @@ height: 400px;
 .box_black {
   width: 90%;
   height: 400px;
-  background-color: #black;
+  background-color: black;
   margin: 0 auto;
   align-items: flex-end;
 }
