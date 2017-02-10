@@ -17,11 +17,11 @@ color: white;
 }
 
 .box{
-width: 100px;
-height: 100px;
+width: 90%;
+height: 400px;
 }
 
-.black {
+.box_black {
   width: 90%;
   height: 400px;
   background-color: #black;
