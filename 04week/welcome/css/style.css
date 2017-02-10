@@ -28,7 +28,23 @@ height: 400px;
   margin: 0 auto;
   /*align-items: flex-end;
 }*/
-} 
+}
+
+.blue_rectangle {
+width: 30%;
+height: 2px;
+
+}
+
+.orange_rectangle {
+width: 30%;
+height: 2px;
+}
+
+.aqua_rectangle {
+width: 30%;
+height: 2px; 
+}
 
 /* Phone Size */
 
