@@ -31,19 +31,21 @@ height: 400px;
 }
 
 .blue_rectangle {
-width: 30%;
-height: 2px;
-
+width: 20%;
+height: 20px;
+background-color: #33A7E1;
 }
 
 .orange_rectangle {
-width: 30%;
-height: 2px;
+width: 20%;
+height: 20px;
+background-color: #F1652C;
 }
 
 .aqua_rectangle {
-width: 30%;
-height: 2px; 
+width: 20%;
+height: 20px;
+background-color: #33A8DD; 
 }
 
 /* Phone Size */
@@ -53,4 +55,6 @@ height: 2px;
     background-color:
     #33A8DD;
   }
+
+
 }
