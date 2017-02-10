@@ -5,13 +5,22 @@ body {
 #hero {
   width: 90%;
   height: 400px;
-  background-color: # 2BCDC0;
+  background-color: #2BCDC0;
   margin: 0 auto;
   text-align: center;
 }
 
 #hero h1 {
-  padding-top: 100px;
+  padding-top: 175px;
 font-size: 48px;
 color: white;
+}
+
+/* PHone Size */
+
+@media (max-width: 767px) {
+  #hero {
+    background-color:
+    #33A8DD;
+  }
 }
