@@ -32,20 +32,23 @@ height: 400px;
 
 .blue_rectangle {
 width: 20%;
-height: 20px;
+height: 30px;
 background-color: #33A7E1;
+align-items: flex-start;
 }
 
 .orange_rectangle {
 width: 20%;
-height: 20px;
+height: 30px;
 background-color: #F1652C;
+align-items: center;
 }
 
 .aqua_rectangle {
 width: 20%;
-height: 20px;
-background-color: #33A8DD; 
+height: 30px;
+background-color: #33A8DD;
+align-items: flex-end; 
 }
 
 /* Phone Size */
