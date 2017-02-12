@@ -52,6 +52,23 @@ background-color: #33A8DD;
 align-items: flex-end;
 }
 
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+
+}
+
+.flex-item {
+  background: #33A8DD;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+}
+
 /* Phone Size */
 
 @media (max-width: 767px) {
