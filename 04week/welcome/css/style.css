@@ -21,53 +21,43 @@ width: 90%;
 height: 400px;
 }
 
-.container {
+.flex-grid-thirds {
   display: flex;
+  justify-content: space-around;
   width: 90%;
   height: 400px;
   background-color: black;
+  align-items: flex-start;
   margin: 0 auto;
-  /*align-items: flex-end;
-}*/
 }
 
 .blue_rectangle {
 width: 20%;
 height: 30px;
-background-color: #33A7E1;
+background-color: #33A8DD;
 align-items: flex-start;
+justify-content: space-between;
+margin: 50px;
 }
 
 .orange_rectangle {
 width: 20%;
 height: 30px;
-background-color: #F1652C;
+background-color: #F46731;
 align-items: center;
+justify-content: space-between;
+margin: 50px;
 }
 
 .aqua_rectangle {
 width: 20%;
 height: 30px;
-background-color: #33A8DD;
+background-color: #2BCDC0;
 align-items: flex-end;
+justify-content: space-between;
+margin: 50px;
 }
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-
-}
-
-.flex-item {
-  background: #33A8DD;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-
-}
 
 /* Phone Size */
 
