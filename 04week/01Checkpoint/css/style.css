@@ -48,7 +48,7 @@ h1 {
   background-position: top;
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: 400px;
   margin: 20px auto;
 }
 
@@ -108,9 +108,6 @@ h2 {
   flex: 1;
   width: 30%;
   margin: 0 auto;
-  /*padding: 100px;
-  justify-content: space-around;
-  align-items: center;*/
 }
 
 .flex-sct-1-text {
@@ -123,7 +120,7 @@ h2 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 80%;
+  width: 100%;
   height: 400px;
   margin: 0 auto;
   background: blue;
@@ -132,34 +129,35 @@ h2 {
 
 div.jotaro {
    content:url("../img/jotaro.jpg");
-   width: 150px;
-   height: 150px;
+   width: 200px;
+   height: 200px;
    margin: 50px;
 }​
 
-div.Oku {
-  content:url("../img/Oku.png");
-  width: 150px;
-  height: 150px;
+div.Koichi {
+  content:url("../img/Koichi.png");
+  width: 200px;
+  height: 200px;
   margin: 50px;
 }
 
 div.Koichi {
   content:url("../img/Koichi.png");
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin: 50px;
 }
 
+
 div.Rohan {
    content:url("../img/Rohan.png");
-   width: 150px;
-   height: 150px;
+   width: 200px;
+   height: 200px;
    margin: 50px;
 }​
 
 #footer-img {
-  background-image:url("../img/Bigjojo.png");
+  background-image: url("../img/Bigjojo.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
