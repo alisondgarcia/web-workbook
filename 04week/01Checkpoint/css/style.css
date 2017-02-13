@@ -32,7 +32,7 @@ body {
     flex: 1;
     justify-content: space-around;
     align-items: center;
-    text-decoration:none;
+    text-decoration: none;
     padding: 0px 50px;
 }
 
@@ -48,8 +48,8 @@ h1 {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  width: 80%;
-  height: 200px;
+  width: 100%;
+  height: 250px;
   margin: 20px auto;
 }
 
@@ -57,7 +57,40 @@ h1 {
   font-size: 72px;
   color: white;
   text-align: center;
-  margin-top: auto;
+}
+
+#hero h4 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  width: 150px;
+  background-color: #11d1ac;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.flex-grid-main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -73,28 +106,28 @@ h1 {
 
 div.jotaro {
    content:url("../img/jotaro.jpg");
-   width: 100%;
-   height: 100%;
+   width: 150px;
+   height: 150px;
    margin: 50px;
 }​
 
 div.Oku {
   content: url("../img/Oku.png");
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 150px;
   margin: 50px;
 }
 
 div.Koichi {
   content:url("../img/Koichi.png");
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 150px;
   margin: 50px;
 }
 
 div.Rohan {
    content:url("../img/Rohan.png");
-   width: 100%;
-   height: 100%;
+   width: 150px;
+   height: 150px;
    margin: 50px;
 }​
