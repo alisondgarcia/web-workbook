@@ -19,6 +19,14 @@ button {
     margin: 20px 0 60px 0;
 }
 
+/*-- Nav CSS --*/
+
+.navbar {
+background-color: black;
+}
+
+/*end of nav start of footer*/
+
 .footer-box {
     background-color: #5d5d5d;
     width: 100%;
