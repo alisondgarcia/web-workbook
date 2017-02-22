@@ -11,6 +11,13 @@ align-items: center;
 color:white;
 text-align: center;
 }
+/*--Nav CSS --*/
+.navbar {
+background-color: #ffb6c1;
+
+}
+
+/*-- end --*/
 
 .col-md-3{
   display: flex;
