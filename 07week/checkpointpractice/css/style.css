@@ -1,8 +1,26 @@
+#hero img {
+    opacity: 0.75;
+    margin: 0 auto;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.jumbotron .container {
+    max-width: 100%;
+}
+
 #about p {
     color: #777;
     line-height: 30px;
     font-size: 1.5em;
     padding: 25px;
+    position: center; 
+}
+
+#signature {
+    max-height: 80px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #wineMan {
