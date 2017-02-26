@@ -1,6 +1,7 @@
 #hero {
     width: 100%;
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 .navbar {
   background: #A1FFCE; /* For browsers that do not support gradients */
@@ -10,13 +11,10 @@
   background: linear-gradient(to right, #A1FFCE, #FAFFD1; /* Standard syntax */
 }
 
-.f {
-  background-image: url("../img/banner.jpg");
-  width:100%;
-  height: 400px;
-  background-color: black;
+img {
+    max-width: 100%;
+    height: auto;
 }
-
 
 .footer-box {
     background-color: #5d5d5d;
