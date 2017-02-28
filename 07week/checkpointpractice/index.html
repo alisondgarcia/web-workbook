@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Foundry</title>
 
     <!--bootstrap css-->
@@ -13,15 +12,13 @@
     <!--CSS file-->
     <link rel="stylesheet" href="css/style.css">
 
-
-
 </head>
 
 <body>
   <header>
       <!-- This is where the bootstrap nav goes -->
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <!--  <div class="container-fluid"> -->
+      <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid nav-content">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
@@ -33,22 +30,22 @@
               </div>
 
               <!-- Collect the nav links for toggling -->
-              <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                  <ul class="nav navbar-nav pull-right">
+              <div class="collapse navbar-collapse navbar-right" id="example-navbar-collapse">
+                  <ul class="nav navbar-nav">
                       <li>
-                          <a href="#">Home</a>
+                          <a href="#home">Home</a>
                       </li>
 
                       <li>
-                          <a href="#">About Us</a>
+                          <a href="#about-us">About Us</a>
                       </li>
 
                       <li>
-                          <a href="#">Testimonial</a>
+                          <a href="#testimonials">Testimonial</a>
                       </li>
 
                       <li>
-                          <a href="#">Wine Selection</a>
+                          <a href="#wine">Wine Selection</a>
                       </li>
 
                   </ul>
@@ -61,38 +58,91 @@
 
   <main>
     <!-- Hero images goes here -->
-    <div class="jumbotron" id="hero">
-     <div class="container-fluid">
-      <img src="img/wine1.png" alt="Foundry Logo" class="img-responsive">
-      <p id="quote">
-        “Without doubt, one of the most consistently
-        <br>
-        high-quality wineries in the Barossa region”</p>
-      <p id="author">David Halladay - Respected Wino</p>
-</div>
-</div>
-    <!-- image and quote go here -->
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-      <img id="wineman" src="img/wine16.jpg" class="img-responsive">
-    </div>
-  </div>
+    <section id="hero" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1 hero-text">
+          <img src="img/wine1.png" class="f-img">
+          <p id="quote">
+            &quot;Without doubt, one of the most consistently high-quality wineries in the Barossa region&quot;
+          </p>
+          <h6>David Halladay - Respected Wino</h6>
+        </div>
+      </div>
+    </section>
 
-    <div id="about" class="col-xs-12 col-lg-4 col-lg-offset-1">
-      <p id="est"> &nbsp;EST.1968&nbsp;</p>
-      <h3>Combining over 60 years of hard work and shared family knowledge</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati maiores aliquam.
-        Ad minus vero fugiat consequuntur qui provident aliquid quod quidem cumque aliquam deleniti suum cuique.
-      </p>
-      <img id="signature" src="img/wine2.png" alt="Signature" class="img-responsive">
-    </div>
+    <section id="about-us" class="container-fluid">
+      <div class="row">
 
-    <!-- 12 column image with quote on top -->
+        <!-- Right column, top block on mobile and tablet -->
+        <div class="col-md-6 col-md-push-6 man-sweeping">
+        </div>
 
-<!-- 3 column wine images with three buttons underneath each image -->
+        <!-- Left column, bottom block on mobile and tablet -->
+        <div class="col-md-6 col-md-pull-6 about-us-text">
+          <h4>• EST. 1968 •</h4>
+          <h2>Combining over 100 years of hard work and shared family knowledge</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <img src="img/wine2.png">
+        </div>
+      </div>
+    </section>
 
-    <div>
-    </div>
+    <section id="testimonials" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1 testimonials-text">
+          <h1>&quot;We've been producing fine wine for over 65 years, I think we know what we're talking about.&quot;
+          </h1>
+          <h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</h5>
+        </div>
+      </div>
+    </section>
+
+    <section id="wines" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 wine-info">
+          <img src="img/wine3.jpg">
+          <hr>
+          <h2>Foundry Shiraz</h2>
+          <p id="small">
+            &quot;Aged five years in solid, French Oak barrels sports notes of pepper and blackberry.&quot;
+          </p>
+          <button class="shop">Visit Shop</button>
+
+        </div>
+        <div class="col-sm-4 wine-info">
+          <img src="img/wine6.jpg">
+          <hr>
+          <h2>Foundry Chardonnay</h2>
+          <p id="small">
+            &quot;A rich fruit palet with subtle Oak influence and a lingering dry, fresh finish.&quot;
+
+          </p>
+          <button class="shop">Visit Shop</button>
+
+        </div>
+        <div class="col-sm-4 wine-info">
+          <img src="img/wine7.jpg">
+          <hr>
+          <h2>Foundry Cabernet</h2>
+          <p id="small">
+            &quot;Generous sweet blackcurrant and mulberry character with soft, velvety tannins.&quot;
+
+          </p>
+          <button class="shop">Visit Shop</button>
+
+
+        </div>
+      </div>
+    </section>
+
   </main>
-</body>
 
-</html>
+  <!-- These are the Javascript files -->
+
+  <!-- JQuery CDN script -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
