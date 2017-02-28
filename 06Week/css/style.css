@@ -1,23 +1,42 @@
+body {
+      font-family: 'VT323', monospace;
+      font-size: 25px;
+}
+
 #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    height: 800px;
+    margin-top: -75px;
 }
+
 .navbar {
-  background: #A1FFCE; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #A1FFCE, #FAFFD1); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #A1FFCE, #FAFFD1); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #A1FFCE, #FAFFD1); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #A1FFCE, #FAFFD1; /* Standard syntax */
+    background: #A1FFCE;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #A1FFCE, #FAFFD1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #A1FFCE, #FAFFD1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #A1FFCE, #FAFFD1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #A1FFCE, #FAFFD1;
+    /* Standard syntax */
 }
 
-img {
-    border: 0;
-}
-
-div.panel.panel-default {
-  margin-top: 15px;
-
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 20px;
 }
 
 /*media queries*/
