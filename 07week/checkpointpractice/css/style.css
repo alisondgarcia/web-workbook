@@ -21,7 +21,7 @@ h2 {
 }
 
 h4 {
-    color: lightgray;
+    color: gray;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -54,21 +54,23 @@ p {
 .navbar {
     height: 55px;
     border: 0 !important;
-    border-bottom: 1px solid rgba(255, 255, 255, .4) !important;
     border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0);
+    border-color: #e7e7e7;
 }
 
-.logo {
-    height: 40px;
-    margin-top: -10px;
+
+a {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: .1em;
 }
 
 li a {
-    color: white !important;
-    font-family: Helvetica, sans-serif;
+    color: gray;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .1em;
 }
 
