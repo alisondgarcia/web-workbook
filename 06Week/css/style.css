@@ -12,27 +12,12 @@
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    border: 0;
 }
 
-.footer-box {
-    background-color: #5d5d5d;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.footer-h4 {
-    color: white;
-    font-weight: bold;
-}
+div.panel.panel-default {
+  margin-top: 15px;
 
-.fa {
-    float: right;
 }
 
 /*media queries*/
