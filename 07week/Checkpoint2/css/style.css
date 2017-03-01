@@ -1,0 +1,127 @@
+body {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+#quote {
+
+}
+
+.navbar {
+
+}
+
+a {
+
+
+}
+
+li a {
+
+
+}
+
+#hero {
+
+
+}
+
+.hero-text {
+
+
+}
+
+.f-image {
+
+
+}
+
+#about-us {
+
+
+}
+
+.about-us-text img {
+
+}
+
+#testimonials {
+
+
+}
+
+.testimonial-text {
+
+}
+
+#wines {
+
+
+}
+
+.wine-info {
+
+
+}
+
+hr {
+
+
+}
+
+.wine-info img {
+
+
+}
+
+.shop {
+
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 767px){
+.navbar-collapse{
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  margin-top: 3px;
+  width: 100%;
+}
+li a {
+color: black;
+}
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 1375px){
+
+}
