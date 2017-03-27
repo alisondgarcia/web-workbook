@@ -1,7 +1,7 @@
 div[data-cell] {
   width: 100px;
   height: 100px;
-  background-color: #71EEB8;
+  background-color: #99FFCC ;
   float: left;
   border: 1px solid #808080;
   font-size: 100px;
@@ -10,9 +10,19 @@ div[data-cell] {
 
 .row {
   clear: both;
+  display: flex;
+  justify-content: center;
 }
 
 #announce-winner {
   clear: both;
   font-size: 50px;
+}
+body {
+  text-align: center;
+  background-image: url(../img/jotarodolphin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
