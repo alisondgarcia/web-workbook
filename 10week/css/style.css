@@ -94,9 +94,8 @@
 
         #work {
             background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            min-height: 800px;
+            width: 100%;
         }
         .work-text {
             display: flex;
@@ -104,6 +103,13 @@
             justify-content: center;
             flex-flow: column wrap;
             padding: 0 130px;
+            height: 800px;
+        }
+        .work {
+            background-image: url('../img/tictactoe.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
             height: 800px;
         }
 
