@@ -52,7 +52,7 @@
             margin-top: 60px;
         }
         .logo {
-            display: center;
+            display: flex;
             height: 100%;
             width: 100%;
         }
@@ -62,15 +62,28 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
-            height: 800px;
+          /*  width: 100%; */ 
+           /* height: 800px; */
         }
         .about-text {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column wrap;
+            padding: 0 130px;
+            height: 800px;
         }
+        .white-div {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 800px;
+        }
+
+
 
         #work {
             background-color: white;
