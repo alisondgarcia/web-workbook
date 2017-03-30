@@ -41,6 +41,9 @@
           color: black;
         }
 
+        h3 {
+          color: #2e2e2e; 
+        }
 
         #hero {
             display: flex;
@@ -94,23 +97,23 @@
         }
 
         #work {
-            background-color: white;
-            min-height: 800px;
-            width: 100%;
+            max-width: 1170px
         }
+        .work-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-flow: column wrap;
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
         .work-text {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-flow: column wrap;
             padding: 0 130px;
-            height: 800px;
-        }
-        .work {
-            background-image: url('../img/tictactoe.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
             height: 800px;
         }
 
@@ -143,16 +146,6 @@
             }
         }
 
-        @media (max-width: 767px) {
-          #work {
-            background-color: #F7484E;
-            width: 100%;
-          }
-
-          @media (max-width: 767px) {
-            #work h1 {
-              color: white; 
-            }
 
         @media (max-width: 992px) {
             .about-us-text {
