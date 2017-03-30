@@ -13,7 +13,7 @@
         a {
             font-family: 'Nunito', sans-serif;
             text-transform: uppercase;
-            font-size: 11px;
+            font-size: 12px;
             letter-spacing: .1em;
         }
 
@@ -47,14 +47,14 @@
         .hero-text {
             display: flex;
             justify-content: center;
-            align-items: center; 
+            align-items: center;
             flex-flow: column;
             margin-top: 60px;
         }
         .logo {
-            display: flex;
-            height: 80%;
-            width: 80%;
+            display: center;
+            height: 100%;
+            width: 100%;
         }
 
         #about-me {
@@ -64,6 +64,12 @@
             align-items: center;
             width: 100%;
             height: 800px;
+        }
+        .about-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column;
         }
 
         #work {
